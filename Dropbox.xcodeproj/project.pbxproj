@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484A9D6D1CF2B7D600B869E9 /* CannotLogINViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A9D6C1CF2B7D600B869E9 /* CannotLogINViewController.swift */; };
 		4868DA9D1CEFC5C50029EA8C /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */; };
 		4868DA9F1CEFC7140029EA8C /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */; };
 		487723871CED478700E0BE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487723861CED478700E0BE57 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		484A9D6C1CF2B7D600B869E9 /* CannotLogINViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CannotLogINViewController.swift; sourceTree = "<group>"; };
 		4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
 		4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
 		487723861CED478700E0BE57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				487BEFA61CED43EA004FCBDC /* AppDelegate.swift */,
 				487BEFA81CED43EA004FCBDC /* ViewController.swift */,
 				487BEFAA1CED43EA004FCBDC /* Main.storyboard */,
+				484A9D6C1CF2B7D600B869E9 /* CannotLogINViewController.swift */,
 				4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */,
 				4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */,
 				487723941CED72B900E0BE57 /* SettingsViewController.swift */,
@@ -237,6 +240,7 @@
 			files = (
 				4868DA9D1CEFC5C50029EA8C /* Settings2ViewController.swift in Sources */,
 				4877238F1CED63D900E0BE57 /* SignInRootViewController.swift in Sources */,
+				484A9D6D1CF2B7D600B869E9 /* CannotLogINViewController.swift in Sources */,
 				4877238D1CED61F100E0BE57 /* CreateAccountRootViewController.swift in Sources */,
 				487BEFA91CED43EA004FCBDC /* ViewController.swift in Sources */,
 				487BEFA71CED43EA004FCBDC /* AppDelegate.swift in Sources */,

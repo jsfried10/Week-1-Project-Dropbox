@@ -300,6 +300,13 @@
                                     <segue destination="iey-oD-NY9" kind="modal" animates="NO" id="eJz-3x-c2U"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TOk-Yi-sfW">
+                                <rect key="frame" x="58" y="197" width="204" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="dMW-wM-hcs" kind="modal" animates="NO" id="3dR-dr-Bhg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -688,6 +695,33 @@
             </objects>
             <point key="canvasLocation" x="3204" y="1717"/>
         </scene>
+        <!--Cannot LogIN View Controller-->
+        <scene sceneID="rVc-Ar-gUx">
+            <objects>
+                <viewController id="dMW-wM-hcs" customClass="CannotLogINViewController" customModule="Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gKS-G4-2qs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="sign_in3" id="sXb-88-Wtd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="674-bT-V9d">
+                                <rect key="frame" x="57" y="518" width="192" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="M7P-U2-eCt" kind="modal" animates="NO" id="IQq-hH-9py"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eZs-bV-XYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="1925"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="c8W-7T-mxT">
             <objects>
@@ -819,13 +853,15 @@
         <image name="settings_tab" width="30" height="30"/>
         <image name="sign_in1" width="320" height="568"/>
         <image name="sign_in2" width="320" height="568"/>
+        <image name="sign_in3" width="320" height="568"/>
         <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PPm-8s-sZV"/>
+        <segue reference="IQq-hH-9py"/>
         <segue reference="CAZ-LA-mA9"/>
+        <segue reference="PPm-8s-sZV"/>
     </inferredMetricsTieBreakers>
 </document>
