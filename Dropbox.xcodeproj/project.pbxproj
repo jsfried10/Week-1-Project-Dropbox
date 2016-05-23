@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4868DA9D1CEFC5C50029EA8C /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */; };
+		4868DA9F1CEFC7140029EA8C /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */; };
+		487723871CED478700E0BE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487723861CED478700E0BE57 /* LaunchScreen.storyboard */; };
+		4877238D1CED61F100E0BE57 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877238C1CED61F100E0BE57 /* CreateAccountRootViewController.swift */; };
+		4877238F1CED63D900E0BE57 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4877238E1CED63D900E0BE57 /* SignInRootViewController.swift */; };
+		487723931CED6E0F00E0BE57 /* DissMissTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487723921CED6E0F00E0BE57 /* DissMissTerms.swift */; };
+		487723951CED72B900E0BE57 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487723941CED72B900E0BE57 /* SettingsViewController.swift */; };
 		487BEFA71CED43EA004FCBDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487BEFA61CED43EA004FCBDC /* AppDelegate.swift */; };
 		487BEFA91CED43EA004FCBDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487BEFA81CED43EA004FCBDC /* ViewController.swift */; };
 		487BEFAC1CED43EA004FCBDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487BEFAA1CED43EA004FCBDC /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
+		4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		487723861CED478700E0BE57 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4877238C1CED61F100E0BE57 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAccountRootViewController.swift; path = ../CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		4877238E1CED63D900E0BE57 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		487723921CED6E0F00E0BE57 /* DissMissTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissMissTerms.swift; sourceTree = "<group>"; };
+		487723941CED72B900E0BE57 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		487BEFA11CED43EA004FCBDC /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487BEFA51CED43EA004FCBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		487BEFA61CED43EA004FCBDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,10 +91,17 @@
 		487BEFA31CED43EA004FCBDC /* Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				4877238C1CED61F100E0BE57 /* CreateAccountRootViewController.swift */,
 				487BEFA61CED43EA004FCBDC /* AppDelegate.swift */,
 				487BEFA81CED43EA004FCBDC /* ViewController.swift */,
 				487BEFAA1CED43EA004FCBDC /* Main.storyboard */,
+				4868DA9E1CEFC7140029EA8C /* WelcomeScreenViewController.swift */,
+				4868DA9C1CEFC5C50029EA8C /* Settings2ViewController.swift */,
+				487723941CED72B900E0BE57 /* SettingsViewController.swift */,
+				487723921CED6E0F00E0BE57 /* DissMissTerms.swift */,
+				4877238E1CED63D900E0BE57 /* SignInRootViewController.swift */,
 				487BEFAD1CED43EA004FCBDC /* Images.xcassets */,
+				487723861CED478700E0BE57 /* LaunchScreen.storyboard */,
 				487BEFAF1CED43EA004FCBDC /* LaunchScreen.xib */,
 				487BEFA41CED43EA004FCBDC /* Supporting Files */,
 			);
@@ -156,6 +177,7 @@
 		487BEF991CED43EA004FCBDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jeremy Friedland";
 				TargetAttributes = {
@@ -194,6 +216,7 @@
 			files = (
 				487BEFAC1CED43EA004FCBDC /* Main.storyboard in Resources */,
 				487BEFB11CED43EA004FCBDC /* LaunchScreen.xib in Resources */,
+				487723871CED478700E0BE57 /* LaunchScreen.storyboard in Resources */,
 				487BEFAE1CED43EA004FCBDC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4868DA9D1CEFC5C50029EA8C /* Settings2ViewController.swift in Sources */,
+				4877238F1CED63D900E0BE57 /* SignInRootViewController.swift in Sources */,
+				4877238D1CED61F100E0BE57 /* CreateAccountRootViewController.swift in Sources */,
 				487BEFA91CED43EA004FCBDC /* ViewController.swift in Sources */,
 				487BEFA71CED43EA004FCBDC /* AppDelegate.swift in Sources */,
+				4868DA9F1CEFC7140029EA8C /* WelcomeScreenViewController.swift in Sources */,
+				487723931CED6E0F00E0BE57 /* DissMissTerms.swift in Sources */,
+				487723951CED72B900E0BE57 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +438,7 @@
 				487BEFC21CED43EA004FCBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		487BEFC31CED43EA004FCBDC /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +447,7 @@
 				487BEFC51CED43EA004FCBDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
